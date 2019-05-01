@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SrollViewApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yra-W6-flZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="JbG-Vd-5ok">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="PPt-PA-VGg">
+                                        <rect key="frame" x="375" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="GfG-gc-3ry">
+                                        <rect key="frame" x="750" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="zZS-K0-A43">
+                                        <rect key="frame" x="1125" y="0.0" width="375" height="667"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="PPt-PA-VGg" firstAttribute="width" secondItem="yra-W6-flZ" secondAttribute="width" id="1r9-N0-Vt0"/>
+                                    <constraint firstAttribute="bottom" secondItem="PPt-PA-VGg" secondAttribute="bottom" id="33A-H5-hYU"/>
+                                    <constraint firstItem="JbG-Vd-5ok" firstAttribute="height" secondItem="yra-W6-flZ" secondAttribute="height" id="8Dg-8b-zFx"/>
+                                    <constraint firstItem="PPt-PA-VGg" firstAttribute="top" secondItem="yra-W6-flZ" secondAttribute="top" id="8PR-L6-SA3"/>
+                                    <constraint firstItem="GfG-gc-3ry" firstAttribute="leading" secondItem="PPt-PA-VGg" secondAttribute="trailing" id="AuR-Jg-xTN"/>
+                                    <constraint firstItem="JbG-Vd-5ok" firstAttribute="width" secondItem="yra-W6-flZ" secondAttribute="width" id="J1d-Ih-wtP"/>
+                                    <constraint firstItem="JbG-Vd-5ok" firstAttribute="leading" secondItem="yra-W6-flZ" secondAttribute="leading" id="Jvn-YC-Rae"/>
+                                    <constraint firstItem="JbG-Vd-5ok" firstAttribute="top" secondItem="yra-W6-flZ" secondAttribute="top" id="VjR-dg-ehI"/>
+                                    <constraint firstItem="zZS-K0-A43" firstAttribute="top" secondItem="yra-W6-flZ" secondAttribute="top" id="VqP-hI-GI9"/>
+                                    <constraint firstAttribute="trailing" secondItem="zZS-K0-A43" secondAttribute="trailing" id="YHc-iO-e54"/>
+                                    <constraint firstItem="GfG-gc-3ry" firstAttribute="top" secondItem="yra-W6-flZ" secondAttribute="top" id="b62-1d-jxa"/>
+                                    <constraint firstAttribute="bottom" secondItem="JbG-Vd-5ok" secondAttribute="bottom" id="exP-oF-95x"/>
+                                    <constraint firstItem="zZS-K0-A43" firstAttribute="leading" secondItem="GfG-gc-3ry" secondAttribute="trailing" id="g78-e8-XI8"/>
+                                    <constraint firstItem="GfG-gc-3ry" firstAttribute="width" secondItem="yra-W6-flZ" secondAttribute="width" id="hGd-89-7wI"/>
+                                    <constraint firstItem="PPt-PA-VGg" firstAttribute="height" secondItem="yra-W6-flZ" secondAttribute="height" id="hNN-3H-fJR"/>
+                                    <constraint firstItem="PPt-PA-VGg" firstAttribute="leading" secondItem="JbG-Vd-5ok" secondAttribute="trailing" id="krX-gM-0hy"/>
+                                    <constraint firstItem="zZS-K0-A43" firstAttribute="height" secondItem="yra-W6-flZ" secondAttribute="height" id="mPa-Xd-6dJ"/>
+                                    <constraint firstItem="zZS-K0-A43" firstAttribute="width" secondItem="yra-W6-flZ" secondAttribute="width" id="oRq-0j-EPb"/>
+                                    <constraint firstAttribute="bottom" secondItem="zZS-K0-A43" secondAttribute="bottom" id="t61-Go-9EZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="GfG-gc-3ry" secondAttribute="bottom" id="xAe-jk-k3v"/>
+                                    <constraint firstItem="GfG-gc-3ry" firstAttribute="height" secondItem="yra-W6-flZ" secondAttribute="height" id="ze9-7W-60Y"/>
+                                </constraints>
+                            </scrollView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" translatesAutoresizingMaskIntoConstraints="NO" id="uYQ-M4-jBf">
+                                <rect key="frame" x="160" y="610" width="55" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="uYQ-M4-jBf" firstAttribute="centerX" secondItem="yra-W6-flZ" secondAttribute="centerX" id="2py-hJ-cVj"/>
+                            <constraint firstItem="yra-W6-flZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="6ZD-G9-sQ8"/>
+                            <constraint firstAttribute="trailing" secondItem="yra-W6-flZ" secondAttribute="trailing" id="Wh7-Tz-RHN"/>
+                            <constraint firstItem="yra-W6-flZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="b7m-9c-178"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uYQ-M4-jBf" secondAttribute="bottom" constant="20" id="c7P-eV-mL8"/>
+                            <constraint firstAttribute="bottom" secondItem="yra-W6-flZ" secondAttribute="bottom" id="zKE-f3-tmX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="uYQ-M4-jBf" id="DHE-DS-lIF"/>
+                        <outlet property="scrollView" destination="yra-W6-flZ" id="8Wt-g8-QWm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="3840" height="2400"/>
+        <image name="2" width="284" height="177"/>
+        <image name="3" width="460.79998779296875" height="288"/>
+        <image name="4" width="600" height="600"/>
+    </resources>
+</document>
