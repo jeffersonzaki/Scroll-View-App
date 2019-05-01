@@ -1,7 +1,7 @@
 # Scroll-View-App
 With just a swipe to either side you have different landscapes at your fingertips. 
 
-# What-I-Learned
+# What I Learned
 Scroll View
 
 Page Control
